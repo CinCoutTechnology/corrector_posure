@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.monitor.exercise_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:layout_margin="15dp">
+
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="30dp"
+            android:contentDescription="@string/app_name"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_baseline_close_24" />
+
+        <TextView
+            android:id="@+id/text_di1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image3"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:gravity="center"
+            android:text="Es hora de tomarte un descanso"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/text_di1"
+            android:elevation="2dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/dips1" />
+
+        <TextView
+            android:id="@+id/text_di2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lottie"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:gravity="center"
+            android:text="Ejercicios para fortalecer la cadena posterior"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_di3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_di2"
+            android:layout_margin="10dp"
+            android:text="El Superman es un ejercicio enfocado a trabajar la musculatura extensora de la espalda, que es aquella que nos mantiene rectos y erguidos"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text_di4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_di3"
+            android:layout_margin="10dp"
+            android:text="Para llevarlo a cabo solo tendrás que tumbarte boca abajo en una superficie cómoda y tratarás de extender al mismo tiempo tu torso y tus piernas, quedándote en contacto con el suelo únicamente con tu abdomen."
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/text_di4"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/sup1" />
+
+        <TextView
+            android:id="@+id/text_di5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Iniciar por elevar un brazo:“…al mismo tiempo que levantas la pierna contraria y realizar de 12 a 15 repeticiones."
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/text_di5"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/sup2" />
+    </RelativeLayout>
+</ScrollView>

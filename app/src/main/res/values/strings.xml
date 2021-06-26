@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">posture_corrector</string>
+    <string name="textApp">textApp</string>
+    <string name="pontelos">pontelos</string>
+    <string name="Bluetooth_not_found">Bluetooth no encontrado"</string>
+    <string name="Bluetooth_enabled_correctly">Bluetooth habilitado correctamente"</string>
+    <string name="Bluetooth_not_enabled">Bluetooth no se pudo habilitar</string>
+    <string name="No_paired">No se encontraron dispositivos emparejados, empareje su dispositivo BT serie e intente nuevamente</string>
+    <string name="color">#FF000000</string>
+</resources>

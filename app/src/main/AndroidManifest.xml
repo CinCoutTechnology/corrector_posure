@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.posture_corrector">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Posture_corrector">
+        <activity android:name=".view.monitor.exercise_activity"></activity>
+        <activity android:name=".view.monitor.monitor_back_activity" />
+        <activity android:name=".view.viewConnect.link_device_activity" />
+        <activity android:name=".view.viewConnect.connect_activity2" />
+        <activity android:name=".view.viewStudy.study_activity" />
+        <activity android:name=".view.viewConnect.connect_activity" />
+        <activity android:name=".view.viewDashboard.dashboard_activity"></activity>
+        <activity
+            android:name=".view.viewSplash.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

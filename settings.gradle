@@ -1,0 +1,9 @@
+include ':bluetooth-client-hc06-2.0'
+include ':bluetoothjhr'
+include ':bluetooth-client-hc06-2.0'
+include ':bluetoothjhr'
+include ':bluetoothjhr'
+include ':hellocharts-library-1.5.8'
+include ':bluetoothjhr'
+include ':app'
+rootProject.name = "posture_corrector"
